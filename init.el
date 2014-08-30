@@ -87,3 +87,9 @@
 
 ;; Ruby-end
 (require 'ruby-end)
+
+;; Milkode Setting
+(require 'milkode)
+;; Shortcut setting
+(global-set-key (kbd "M-g") 'milkode:search)
+(global-set-key (kbd "M-s") 'milkode:search-at-point)
