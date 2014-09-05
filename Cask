@@ -40,6 +40,7 @@
 (depends-on "yaml-mode")
 (depends-on "sass-mode")
 (depends-on "scss-mode")
+(depends-on "go-mode")
 
 ;; Complete setting
 (depends-on "auto-complete")
