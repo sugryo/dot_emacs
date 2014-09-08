@@ -44,6 +44,7 @@
 
 ;; Complete setting
 (depends-on "auto-complete")
+(depends-on "go-autocomplete")
 
 ;; git setting
 (depends-on "magit")
