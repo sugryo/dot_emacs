@@ -35,6 +35,9 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
+;; Emacs-Lisp setting
+(add-to-list 'auto-mode-alist '("Cask$" . emacs-lisp-mode))
+
 ;; Ruby Setting
 (add-to-list 'auto-mode-alist '("\\.rb$latex" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
